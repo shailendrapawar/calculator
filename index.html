@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="display-body">
+           <input id="display" type="text">
+        </div>
+
+
+        <div class="button-body">
+
+            <div class="row-1">
+                <button onclick="allClear()">AC</button>
+                <button onclick="del()">DEL</button>
+            </div>
+
+            <div class="row-2">
+
+                <div class="num-row">
+
+                    <div class="row">
+                        <div class="num-btn">7</div>
+                        <div class="num-btn">8</div>
+                        <div class="num-btn">9</div>
+                    </div>
+                    <div class="row">
+                        <div class="num-btn">4</div>
+                        <div class="num-btn">5</div>
+                        <div class="num-btn">6</div>
+                    </div>
+                    <div class="row">
+                        <div class="num-btn">1</div>
+                        <div class="num-btn">2</div>
+                        <div class="num-btn">3</div>
+                    </div>
+                    <div class="row">
+                    <div class="num-btn">0</div>
+                    <div class="num-btn">.</div>
+                    <div class="num-btn">00</div>
+                    </div>
+
+                </div>
+
+                <div class="operator-row">
+
+                    <div class="op-row-1">
+                        <div class="operator">-</div>
+                        <div class="operator">/</div>
+                    </div>
+
+                    <div class="op-row-2">
+                        <div class="operator large-btn">+</div>
+
+                        <div class="right">
+                            <div class="operator">*</div>
+                            <div class="operator">%</div>
+                        </div>
+
+                    </div>
+                    <div class="op-row-3">
+                        <div id="equals" class="equals">=</div>
+                       
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
